@@ -1,0 +1,5 @@
+# node依赖
+node_modules
+
+# idea ide配置
+.idea
