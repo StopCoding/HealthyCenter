@@ -5,6 +5,12 @@
 
 exports.home = function (Req, Res) {
 
-    Res.send('home page');
+    Res.render('pages/index', {title: 'Title'}, function (err, html) {
+        if (err) {
+            Res.send('error');
+            return;
+        }
+        Res.send(html);
+    });
 
 };

@@ -1,23 +1,24 @@
 {
-    "name": "healthycenter",
-    "version": "1.0.0",
-    "description": "",
-    "main": "app.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/StopCoding/HealthyCenter.git"
-    },
-    "author": "Losink",
-    "email": "mrlosink@gmail.com",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/StopCoding/HealthyCenter/issues"
-    },
-    "homepage": "https://github.com/StopCoding/HealthyCenter#readme",
-    "dependencies": {
-        "express": "^4.15.4"
-    }
+  "name": "healthycenter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StopCoding/HealthyCenter.git"
+  },
+  "author": "Losink",
+  "email": "mrlosink@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StopCoding/HealthyCenter/issues"
+  },
+  "homepage": "https://github.com/StopCoding/HealthyCenter#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.15.4"
+  }
 }
